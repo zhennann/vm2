@@ -13,7 +13,10 @@
     "alcatraz",
     "contextify"
   ],
-  "version": "3.9.19",
+  "version": "@zhennann/3.9.19",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "sideEffects": false,
   "repository": "github:patriksimek/vm2",
