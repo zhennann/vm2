@@ -3,8 +3,11 @@
     "name": "Patrik Simek",
     "url": "https://patriksimek.cz"
   },
-  "name": "vm2",
+  "name": "@zhennann/vm2",
   "description": "vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Securely!",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "sandbox",
     "prison",
@@ -13,10 +16,7 @@
     "alcatraz",
     "contextify"
   ],
-  "version": "@zhennann/3.9.19",
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "3.9.19",
   "main": "index.js",
   "sideEffects": false,
   "repository": "github:patriksimek/vm2",
